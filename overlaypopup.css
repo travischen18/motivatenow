@@ -6,13 +6,13 @@
 	-webkit-box-sizing: border-box; 
 	box-sizing: border-box;
 }
- */
+*/
 
 /* 
 body {
 	font-family: 'Helvetica Neue','Helvetica', Arial, sans-serif;
 }
- */
+*/
 
 .main-content {
 	height: 800px;
@@ -31,43 +31,45 @@ body {
 	background: #000; /* fallback */
 	background: rgba(0,0,0,0.75);
 }
-	.procras-overlay-content {
-		background: #fff;
-		padding: 1%;
-		width: 40%;
-		position: absolute;
-		top: 15%;
-		left: 50%;
-		margin: 0 0 0 -20%; /* add negative left margin for half the width to center the div */
-		cursor: default;
-		z-index: 100001;
-		border-radius: 4px;
-		box-shadow: 0 0 5px rgba(0,0,0,0.9);
-	}
 
-	.procras-close-btn {
-		cursor: pointer;
-		padding: 2% 5%;
-		background: #cc0000; /* fallback */
-        border: none;
-		border-radius: 4px;
-	}
-	
-	.procras-go-btn {
-		cursor: pointer;
-		padding: 2% 5%;
-		background: #a9e7f9; /* fallback */
-        border: none;
-		border-radius: 4px;
-		//box-shadow: 0 0 4px rgba(0,0,0,0.3);
-	}
-	
+
+.procras-overlay-content {
+	background: #fff;
+	padding: 1%;
+	width: 40%;
+	position: absolute;
+	top: 15%;
+	left: 50%;
+	margin: 0 0 0 -20%; /* add negative left margin for half the width to center the div */
+	cursor: default;
+	z-index: 100001;
+	border-radius: 4px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.9);
+}
+
+.procras-close-btn {
+	cursor: pointer;
+	padding: 2% 5%;
+	background: #cc0000; /* fallback */
+	border: none;
+	border-radius: 4px;
+}
+
+.procras-go-btn {
+	cursor: pointer;
+	padding: 2% 5%;
+	background: #a9e7f9; /* fallback */
+	border: none;
+	border-radius: 4px;
+	//box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
 #closeButton {
-    float: left;
+	float: left;
 }
 
 #goButton {
-    float: right;
+	float: right;
 }
 
 #bottomDiv {
@@ -76,13 +78,13 @@ body {
     margin: auto;
     position: fixed;
     bottom: 0;
- */
+    */
     border-style: solid;
 }
 
 .popupText {
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 16px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 16px;
 }
 
 /* media query for most mobile devices */
@@ -93,6 +95,7 @@ body {
 		margin: 0 2%;
 		left: 0;
 	}
+	
 }
 
 
