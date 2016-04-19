@@ -1,3 +1,4 @@
+/* Currently using an array to hold text quotes */
 var textArray = [
     'Do, or do not. There is no try.',
     'You have brains in your head. You have feet in your shoes. You can steer yourself, any direction you choose.',
@@ -6,6 +7,8 @@ var textArray = [
     'Yesterday’s home runs don’t win today’s games.',
     'A professional is someone who can do his best work when he doesn\x27t feel like it.',
 ];
+
+// Generate a random number to select a quote
 var randomNumber = Math.floor(Math.random()*textArray.length);
 
 var randomQuote = textArray[randomNumber].toUpperCase();
